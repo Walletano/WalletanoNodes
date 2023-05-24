@@ -1,0 +1,14 @@
+[Unit]
+Description=Walletano Initiate Payments
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/perl /home/walletano/WalletanoNodes/walletano_initiatepayments.pl
+Restart=always
+RestartSec=3
+StartLimitIntervalSec=60
+StartLimitBurst=5
+User=root
+
+[Install]
+WantedBy=multi-user.target
