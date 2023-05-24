@@ -22,5 +22,5 @@ $sleeptime = 0.2; # seconds
 $database = "walletano";
 $dbserver = "localhost";
 $dbport = "3306";
-$dbuser = "pwro";
+$dbuser = "walletano";
 $dbpass = "password";
